@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
         flexGrow: 1,
     },
     avatar: {
-        width: "300px"
+        maxWidth: "500px"
     },
     aboutMe: {
         maxWidth: "400px"
@@ -18,9 +18,6 @@ const useStyles = makeStyles((theme) => ({
     contacts: {
         maxWidth: "400px"
     },
-    pageHead: {
-        textAlign: "center"
-    }
 
 }));
 
@@ -28,21 +25,17 @@ const MainBody = () => {
     const classes = useStyles();
     return (
         <div>
-            <div className={classes.pageHead}>
-                <h1> Yurii Kasko</h1>
-                <h3> Junior front-end developer</h3>
-            </div>
             <Grid container spacing={3}>
-                <Grid item xs={4}>
+                <Grid item xs={6}>
                     <img className={classes.avatar} src={Me} alt="me"/>
                 </Grid>
-                <Grid item className={classes.aboutMe}>
+                <Grid item  className={classes.aboutMe}>
+                    <h1> Yurii Kasko</h1>
+                    <h3> Junior front-end developer</h3>
                     <AboutMe/>
                 </Grid>
-                <Grid item className={classes.contacts}>
-                    <Contacts/>
-                </Grid>
             </Grid>
+            <Contacts/>
         </div>
     )
 }

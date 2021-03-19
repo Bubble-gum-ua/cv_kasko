@@ -2,15 +2,15 @@
     width: 50px;
 }
 
-.header{
+.header {
     border-bottom: 1px solid;
-    background-color: aqua;
+    background-color: #5a7b8e;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navLinks{
+.navLinks {
     text-align: right;
     margin-right: 5px;
 }

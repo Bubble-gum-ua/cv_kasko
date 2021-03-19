@@ -8,7 +8,6 @@ const Header = () => {
         <div className="header">
             <img src={logo} alt="logo"/>
             <div className="navLinks">
-                <span> About me</span>
                 <span> Portfolio </span>
                 <span> Contacts</span>
             </div>
