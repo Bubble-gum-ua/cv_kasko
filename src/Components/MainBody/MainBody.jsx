@@ -5,6 +5,7 @@ import {Contacts} from "./Contacts/Contacts";
 import Grid from "@material-ui/core/Grid";
 import {makeStyles} from "@material-ui/core";
 import {Skills} from "./Skills/Skills";
+import Portfolio from "./Portfolio/Portfolio";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -39,7 +40,9 @@ const MainBody = () => {
                 </Grid>
             </Grid>
             <Skills/>
+            <Portfolio/>
             <Contacts/>
+
         </div>
     )
 }
