@@ -51,6 +51,11 @@ export const AboutMe = () => {
                 </p>
             </div>
             <div className={classes.buttonIconWrap}>
+                <div>
+                   <h4>
+                       My contacts
+                   </h4>
+                </div>
                 <span>
                     <a href="https://t.me/whoisyurii" target="_blank" rel="noreferrer">
                         <img className={classes.icons} src={Telegram} alt="telegram"/>
