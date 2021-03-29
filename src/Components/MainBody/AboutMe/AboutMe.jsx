@@ -7,7 +7,7 @@ import {Button, makeStyles} from "@material-ui/core";
 import Cv_file from "../../Assets/CV_KaskoYurii.pdf";
 import {GetApp} from "@material-ui/icons";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     icons: {
         maxWidth: "30px",
         marginRight: "20px",
@@ -35,10 +35,10 @@ export const AboutMe = () => {
                 <h4> About me</h4>
                 <p> Hi! </p>
                 <p> My name is Yurii. I'm looking for position as a Junior front-end developer. </p>
-                <p> As a developer has not yet worked. I study React. I am writing a test
+                <p>
+                    As a developer has not yet worked. I study React. I am writing a test
                     project of a social network. Where React, Redux is used. And also
-                    used: redux-form, redux-thunk, react-router, reselect. TypeScript will
-                    be used shortly.
+                    used: redux-form, redux-thunk, react-router, reselect.
                 </p>
                 <p>
                     I now work as a Project Manager. Prior to that, worked as a Sales

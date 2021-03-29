@@ -11,7 +11,8 @@ const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
         width: "100%",
-        justifyContent: "center"
+        justifyContent: "center",
+        paddingTop: "40px"
     },
     avatarWrap: {
         textAlign: "center"
