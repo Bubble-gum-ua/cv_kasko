@@ -56,26 +56,28 @@ export const AboutMe = () => {
                        My contacts
                    </h4>
                 </div>
-                <span>
+                <div>
+                      <span>
                     <a href="https://t.me/whoisyurii" target="_blank" rel="noreferrer">
                         <img className={classes.icons} src={Telegram} alt="telegram"/>
                     </a>
                 </span>
-                <span>
+                    <span>
                     <a href="https://www.linkedin.com/in/yurii-kasko/" target="_blank" rel="noreferrer">
                         <img className={classes.icons} src={Linkdn} alt="Linkdn"/>
                     </a>
                 </span>
-                <span>
+                    <span>
                     <a href="mailto:hellokasko@gmail.com" target="_blank" rel="noreferrer">
                         <img className={classes.icons} src={Mail} alt="Mail"/>
                     </a>
                 </span>
-                <span>
+                    <span>
                     <a href="tel:+380662562559" target="_blank" rel="noreferrer">
                         <img className={classes.icons} src={Phone} alt="Phone"/>
                     </a>
                 </span>
+                </div>
                 <div>
                     <Button className={classes.button}
                             startIcon={<GetApp/>}

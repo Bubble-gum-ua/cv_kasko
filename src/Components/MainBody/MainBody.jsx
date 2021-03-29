@@ -5,6 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import {makeStyles} from "@material-ui/core";
 import {Skills} from "./Skills/Skills";
 import Portfolio from "./Portfolio/Portfolio";
+import {Experience} from "./Expirience/Experience";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -20,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
         width: "100%",
     },
     aboutMe: {
-        maxWidth: "500px",
+        maxWidth: "700px",
         textAlign: "center"
     },
     contacts: {
@@ -30,6 +31,9 @@ const useStyles = makeStyles((theme) => ({
         display: "flex",
         flexDirection: "column",
         alignItems: "center"
+    },
+    expWrap: {
+        textAlign: "center"
     }
 }));
 
@@ -38,7 +42,7 @@ const MainBody = () => {
     return (
         <div>
             <Grid container spacing={3} className={classes.root}>
-                <Grid item xs={5} className={classes.avatarWrap}>
+                <Grid item className={classes.avatarWrap}>
                     <img className={classes.avatar} src={Me} alt="me"/>
                 </Grid>
                 <Grid item className={classes.aboutMe}>
@@ -51,9 +55,11 @@ const MainBody = () => {
             <div className={classes.portfolioWrap}>
                 <div><h2> My projects</h2></div>
                 <div><Portfolio/></div>
-
             </div>
-
+            <div className={classes.expWrap}>
+                <h2>Experience</h2>
+                <Experience/>
+            </div>
         </div>
     )
 }

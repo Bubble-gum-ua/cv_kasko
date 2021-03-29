@@ -12,12 +12,14 @@ import weatherImg from "../../Assets/weather.jpg"
 const useStyles = makeStyles({
     root: {
         maxWidth: 345,
+        background: "linear-gradient(45deg, #77b1c1, #b35750)"
     },
     media: {
         height: 140,
     },
     linkToApp: {
-        textDecoration: "none"
+        textDecoration: "none",
+
     }
 });
 
