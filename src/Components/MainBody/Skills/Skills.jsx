@@ -14,7 +14,9 @@ const useStyles = makeStyles((theme) => ({
         maxWidth: "300px"
     },
     skillsHead: {
-        textAlign: "center"
+        textAlign: "center",
+        borderTop: "1px solid white",
+        marginTop: "10px"
     },
     imagesWrap: {
         display: "flex",

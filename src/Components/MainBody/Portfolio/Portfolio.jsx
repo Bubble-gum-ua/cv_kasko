@@ -19,6 +19,7 @@ const useStyles = makeStyles({
     },
     linkToApp: {
         textDecoration: "none",
+        color: "white"
 
     }
 });

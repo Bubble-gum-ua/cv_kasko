@@ -10,7 +10,8 @@ import {GetApp} from "@material-ui/icons";
 const useStyles = makeStyles((theme) => ({
     icons: {
         maxWidth: "30px",
-        marginRight: "20px"
+        marginRight: "20px",
+        marginLeft: "20px"
     },
     button: {
         color: "white",

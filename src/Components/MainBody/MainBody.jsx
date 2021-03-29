@@ -30,10 +30,13 @@ const useStyles = makeStyles((theme) => ({
     portfolioWrap: {
         display: "flex",
         flexDirection: "column",
-        alignItems: "center"
+        alignItems: "center",
+        borderTop: "1px solid white"
     },
     expWrap: {
-        textAlign: "center"
+        textAlign: "center",
+        borderTop: "1px solid white",
+        marginTop: "10px"
     }
 }));
 

@@ -5,7 +5,7 @@ import Paper from "@material-ui/core/Paper";
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        width: "450px",
+        maxWidth: "320px",
     },
     mainWrapp: {
         width: "100% !important",
@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     },
     paper: {
         padding: "15px",
-        background: "linear-gradient(45deg, rgba(71,150,118,1) 0%, rgba(104,218,36,0.7) 100%)",
+        background: "#E7B12B",
         color: "white"
     }
 
