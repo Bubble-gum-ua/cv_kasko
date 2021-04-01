@@ -32,7 +32,6 @@ export const AboutMe = () => {
     return (
         <div>
             <div className={classes.aboutMeBox}>
-                <h4> About me</h4>
                 <p> Hi! </p>
                 <p> My name is Yurii. I'm looking for position as a Junior front-end developer. </p>
                 <p>

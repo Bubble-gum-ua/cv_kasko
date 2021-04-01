@@ -35,7 +35,7 @@ export const Skills = () => {
     return (
         <div className={classes.skillsWrapp}>
             <div className={classes.skillsHead}>
-                <h1>Technologies stack </h1>
+                <h1>Skills </h1>
             </div>
             <div className={classes.imagesWrap}>
                 <span>

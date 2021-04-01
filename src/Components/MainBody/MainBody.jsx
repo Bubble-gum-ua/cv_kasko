@@ -6,6 +6,7 @@ import {makeStyles} from "@material-ui/core";
 import {Skills} from "./Skills/Skills";
 import Portfolio from "./Portfolio/Portfolio";
 import {Experience} from "./Expirience/Experience";
+import {Programs} from "./Programs/Programs";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -56,6 +57,7 @@ const MainBody = () => {
                 </Grid>
             </Grid>
             <Skills/>
+            <Programs/>
             <div className={classes.portfolioWrap}>
                 <div><h2> My projects</h2></div>
                 <div><Portfolio/></div>
