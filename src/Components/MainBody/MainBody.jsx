@@ -30,9 +30,7 @@ const useStyles = makeStyles((theme) => ({
         maxWidth: "400px"
     },
     portfolioWrap: {
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
+        textAlign: "center",
         borderTop: "1px solid white"
     },
     expWrap: {
